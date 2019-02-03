@@ -6,7 +6,7 @@
   "dependencies": {
     "@rush-temp/main": {
       "version": "file:projects/main.tgz",
-      "integrity": "sha512-d4O2pTp010A9ZNcxBwWc0CpJmXznfgPSo0xuuMSSd+HdUNrJ0dlyl2djoSxgeUodjb8Vxj4SyV21xU54ont3mg=="
+      "integrity": "sha512-AcDyPVgmvmkWhoRa3yCircAepQNF2Mm9hIvwJvGDwUZnVlt/1+1+NDto+pe1APWtORhMufCosymcvTiIN0JjxA=="
     },
     "@rush-temp/my-toolchain": {
       "version": "file:projects/my-toolchain.tgz",

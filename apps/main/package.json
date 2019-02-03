@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ui": "1.0.0"
   },
   "devDependencies": {}
 }
