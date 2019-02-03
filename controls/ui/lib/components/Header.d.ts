@@ -1,4 +1,4 @@
-export default class Header {
+export declare class Header {
     constructor();
     go(): void;
 }

@@ -5,13 +5,13 @@
     "declaration": true,
     "sourceMap": true,
     "experimentalDecorators": true,
-    "outDir": "dist"
+    "outDir": "lib"
   },
   "include": [
     "src/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "lib"
   ]
 }

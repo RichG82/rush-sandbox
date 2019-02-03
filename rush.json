@@ -255,13 +255,22 @@
    */
   "projects": [
     {
-    "packageName": "my-toolchain",
-    "projectFolder": "tools/my-toolchain"
+      "packageName": "main",
+      "projectFolder": "apps/main",
+      "reviewCategory": "production"
     },
     {
       "packageName": "ui",
-      "projectFolder": "controls/ui"
+      "projectFolder": "controls/ui",
+      "reviewCategory": "production"
+    },
+    {
+    "packageName": "my-toolchain",
+    "projectFolder": "tools/my-toolchain",
+    "reviewCategory": "tools"
     }
+    
+    
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)

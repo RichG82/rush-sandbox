@@ -4,20 +4,12 @@
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports"], factory);
+        define(["require", "exports", "./components/Header"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var Header = /** @class */ (function () {
-        function Header() {
-            console.log("Header constructor");
-        }
-        Header.prototype.go = function () {
-            console.log("Header -> go()");
-        };
-        return Header;
-    }());
-    exports.default = Header;
+    var Header_1 = require("./components/Header");
+    exports.Header = Header_1.Header;
 });
-//# sourceMappingURL=Header.js.map
+//# sourceMappingURL=index.js.map
